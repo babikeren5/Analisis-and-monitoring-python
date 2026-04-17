@@ -1,10 +1,10 @@
-# ðŸ–¥ï¸ Python Program Monitor & Analyzer
+# Python Program Monitor & Analyzer
 
 A GUI-based tool for monitoring, analyzing, and executing Python programs with real-time logging, system diagnostics, and resource tracking.
 
 ---
 
-## ðŸš€ Overview
+## Overview
 
 **Python Program Monitor & Analyzer** adalah aplikasi berbasis GUI yang dirancang untuk:
 
@@ -15,40 +15,40 @@ A GUI-based tool for monitoring, analyzing, and executing Python programs with r
 - Menyimpan log eksekusi secara terstruktur
 
 Tool ini menggabungkan konsep:
-> ðŸ”§ Mini IDE + ðŸ“Š System Monitor + ðŸ§¾ Logger
+>  Mini IDE + ðŸ“Š System Monitor + ðŸ§¾ Logger
 
 ---
 
-## âœ¨ Features
+## Features
 
-### ðŸ“ File Handling
+### File Handling
 - Upload file Python (.py)
 - Preview dan analisis kode
 
-### ðŸ” Static Code Analysis
+### Static Code Analysis
 - Deteksi library menggunakan `ast`
 - Identifikasi dependensi program
 
-### ðŸ“¦ Library Checker
+### Library Checker
 - Cek apakah library tersedia
 - Menampilkan versi library
 - Rekomendasi instalasi (`pip install`)
 
-### â–¶ï¸ Program Execution
+### Program Execution
 - Jalankan program langsung dari GUI
 - Stop (SIGTERM) dan Force Stop (SIGKILL)
 
-### ðŸ“Š Real-time Monitoring
+### Real-time Monitoring
 - CPU Usage (%)
 - Memory Usage (MB)
 - Process ID (PID)
 - Execution time tracking
 
-### ðŸ–¥ï¸ Dual Output System
+### Dual Output System
 - **Frontend** â†’ Output program (stdout/stderr)
 - **Backend** â†’ Monitoring & logs
 
-### ðŸ§¾ Logging System
+### Logging System
 - Log otomatis tersimpan
 - Format log terstruktur
 - Bisa disimpan ke file
